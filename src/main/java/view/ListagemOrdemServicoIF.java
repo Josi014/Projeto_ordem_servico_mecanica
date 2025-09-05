@@ -103,6 +103,7 @@ public class ListagemOrdemServicoIF extends javax.swing.JInternalFrame {
         listaServicos.getColumnModel().getColumn(0).setCellRenderer(centerZebra);
         listaServicos.getColumnModel().getColumn(1).setCellRenderer(centerZebra);
         listaServicos.getColumnModel().getColumn(3).setCellRenderer(centerZebra);
+        listaServicos.getColumnModel().getColumn(2).setCellRenderer(centerZebra);
         listaServicos.getColumnModel().getColumn(4).setCellRenderer(centerZebra);
 
         listaServicos.setShowGrid(true);
